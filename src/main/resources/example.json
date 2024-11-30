@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Isla",
+        "last": "Waisanen"
+      },
+      "location": {
+        "street": {
+          "number": 3688,
+          "name": "Hermiankatu"
+        },
+        "city": "Posio",
+        "state": "Åland",
+        "country": "Finland",
+        "postcode": 37463,
+        "coordinates": {
+          "latitude": "-27.8222",
+          "longitude": "38.1071"
+        },
+        "timezone": {
+          "offset": "+10:00",
+          "description": "Eastern Australia, Guam, Vladivostok"
+        }
+      },
+      "email": "isla.waisanen@example.com",
+      "login": {
+        "uuid": "6f4e52af-400b-4a31-b65c-0af97395ccd1",
+        "username": "silverbear713",
+        "password": "fortune",
+        "salt": "adRPpfRy",
+        "md5": "11d14a8617637d686befd22aa751094c",
+        "sha1": "772e6ffa2faf653c3566dfda5bdf9e0a420f4b1b",
+        "sha256": "fc6522d29fb7750b010870dffcf5589c178052613027b0313951772f9d722ee2"
+      },
+      "dob": {
+        "date": "1998-02-20T04:43:40.921Z",
+        "age": 26
+      },
+      "registered": {
+        "date": "2014-10-05T13:33:07.860Z",
+        "age": 10
+      },
+      "phone": "03-537-781",
+      "cell": "046-561-12-83",
+      "id": {
+        "name": "HETU",
+        "value": "NaNNA634undefined"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/44.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/44.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/44.jpg"
+      },
+      "nat": "FI"
+    }
+  ],
+  "info": {
+    "seed": "fda79ae7e4907db6",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

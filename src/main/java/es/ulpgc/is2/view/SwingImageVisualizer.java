@@ -15,7 +15,10 @@ public class SwingImageVisualizer extends JPanel implements ImageVisualizer {
             BufferedImage image = ImageIO.read(new ByteArrayInputStream(imageBytes));
             ImageIcon icon = new ImageIcon(image);
             JLabel label = new JLabel(icon);
+
+            this.removeAll();
             this.add(label, BorderLayout.CENTER);
+
             this.revalidate();
             this.repaint();
         } catch (IOException e) {

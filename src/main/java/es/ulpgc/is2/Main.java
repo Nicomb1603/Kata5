@@ -7,12 +7,15 @@ import es.ulpgc.is2.view.SwingImageVisualizer;
 public class Main {
 
 	public static void main(String[] args) {
-		LoadRandomUserCommand command = new LoadRandomUserCommand(5);
+		/*LoadRandomUserCommand command = new LoadRandomUserCommand(5);
 		command.execute();
 		SwingImageVisualizer imageVisualizer = new SwingImageVisualizer();
 		imageVisualizer.show(command.getUsers().getFirst().getPhoto());
 		for (User user : command.getUsers()) {
 			System.out.println(user.getPhoto());
-		}
+		}*/
+
+		MainFrame mainFrame = new MainFrame();
+		mainFrame.setVisible(true);
 	}
 }

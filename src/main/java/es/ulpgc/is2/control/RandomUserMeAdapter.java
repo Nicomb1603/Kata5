@@ -14,7 +14,7 @@ public class RandomUserMeAdapter implements UserAdapter<RandomUserMeResponse> {
 	public User adapt(RandomUserMeResponse response) {
 		RandomUserMe userMe = response.getResults().getFirst();
 		User user = adapt(userMe);
-		user.setPhoto(downloadPhoto(userMe.getPicture().medium()));
+		user.setPhoto(downloadPhoto(userMe.getPicture().large()));
 		return user;
 	}
 
